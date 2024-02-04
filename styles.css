@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: linear-gradient(to top, #007acc 0%, #000 13%); /* 0.90turn */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    word-wrap: break-word;
+}
+.main_logo {
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+a {
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 9px 0px 9px 0px;
+    width: 100%;
+    text-decoration: none;
+}
+a img {
+    height: 16px;
+    vertical-align: middle;
+}
+.tv img {
+    border-radius: 50%;
+}
+.yt {
+    background: linear-gradient(to right, #f00, #b30000);
+}
+.fb {
+    background: linear-gradient(to right, #0866ff, #0044b3);
+}
+.ig {
+    background: linear-gradient(to right, #ffc900, #fe007e);
+}
+.tw {
+    background: linear-gradient(to right, #000, #222);
+}
+.tv {
+    background: linear-gradient(to right, #9046ff, #5c00e6);
+}
+@media only screen and (max-width: 767px) {
+    a {
+        width: 80%; 
+    }
+}
+@media only screen and (min-width: 768px) {
+    a {
+        width: 40%;
+    }
+}
