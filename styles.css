@@ -39,7 +39,7 @@ a img {
 .ig {
     background: linear-gradient(to right, #ffc900, #fe007e);
 }
-.tw, gh {
+.tw, .gh {
     background: linear-gradient(to right, #000, #222);
 }
 .tv {
