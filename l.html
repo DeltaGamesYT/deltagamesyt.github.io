@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acortador de URL</title>
+</head>
+<body>
+    <!-- Puedes descargar este archivo y usarlo en tu web, dejando creditos a el repositorio -->
+    <!-- Acortador de URL © 2024 by DeltaGames is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/ -->
+    <script>
+        var links = {
+            "blog": "https://devdeltagames.blogspot.com/",
+            "yt": "https://youtube.com/@deltagames115"
+        }
+        var urlParams = new URLSearchParams(window.location.search);
+        var destination = urlParams.get("l");
+        if(destination && links.hasOwnProperty(destination)){
+            window.location.href = links[destination];
+        } else {
+            document.write("<center><h1>404 Not Found</h1><hr>No encontre lo que buscabas...</center>");
+        }
+    </script>
+</body>
+</html>
