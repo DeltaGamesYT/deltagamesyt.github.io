@@ -42,13 +42,19 @@ a img {
 .tw, .gh {
     background: linear-gradient(to right, #000, #222);
 }
-.tv {
+.tv, .ml {
     background: linear-gradient(to right, #9046ff, #5c00e6);
+}
+.wa {
+    background: linear-gradient(to right, rgb(33, 196, 0), rgb(4, 126, 0));
 }
 .gh img {
     border: 1px solid #fff;
     border-radius: 50%;
     background: #fff;
+}
+.bg {
+    background: linear-gradient(to right, #ffc900, #ffbb00);
 }
 @media only screen and (max-width: 767px) {
     a {
