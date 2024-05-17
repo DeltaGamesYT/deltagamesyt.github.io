@@ -15,6 +15,9 @@ body {
     border-radius: 50%;
     border: 3px solid #fff;
 }
+span {
+    font-weight: bold;
+}
 a {
     color: #fff;
     border-radius: 5px;
