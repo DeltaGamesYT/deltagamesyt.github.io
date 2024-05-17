@@ -48,10 +48,20 @@ a img {
 .wa {
     background: linear-gradient(to right, rgb(33, 196, 0), rgb(4, 126, 0));
 }
+.dc {
+    background: linear-gradient(to right, rgb(88, 101, 242), rgb(43, 61, 255));
+}
 .gh img {
     border: 1px solid #fff;
     border-radius: 50%;
     background: #fff;
+}
+.dc img {
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    border-radius: 50%;
 }
 .bg {
     background: linear-gradient(to right, #ffc900, #ffbb00);
