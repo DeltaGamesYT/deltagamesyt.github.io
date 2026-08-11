@@ -42,7 +42,7 @@ a img {
 .ig {
     background: linear-gradient(to right, #ffc900, #fe007e);
 }
-.tw, .gh {
+.tw, .gh, .tk {
     background: linear-gradient(to right, #000, #222);
 }
 .tv, .ml {
@@ -68,6 +68,9 @@ a img {
 }
 .bg {
     background: linear-gradient(to right, #ffc900, #ffbb00);
+}
+.tk {
+    box-shadow: 3px 3px #fe2c55, -3px -3px #25f4ee;
 }
 @media only screen and (max-width: 767px) {
     a {
